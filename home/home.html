@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="/footer/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="logo">
+      <div class="container-fluid">
+        <!-- Marketplace Logo -->
+        <img src="/assets/images/logo.png" alt="MarketPlace" id="img" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- List Elements in the nav bar -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cars & Vehicles
+              </a>
+              <!-- start of sub categories in the cars & vehicles -->
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" id="All"
+                    >See All Vehicles</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Cars &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#" id="cars">Automatic</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" id="manualcars"
+                        >Manual</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" id="electriccars"
+                        >Electric</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">MotorBikes &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#" id="motorbikes"
+                        >High Performance</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" id="lowccmotorbikes"
+                        >Regular</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bikes &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#" id="bikes"
+                        >Gear Bikes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" id="electricBikes"
+                        >Electric scooter</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!-- End of sub categories in the cars & vehicles -->
+              </ul>
+            </li>
+            <!-- Remaining List Elements -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Electronics & Appliances
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" id="all-devices"
+                    >See All Devices</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#" id="tvs">TVs</a></li>
+                <li>
+                  <a class="dropdown-item" href="#" id="laptops">Laptops</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="mobiles">Mobiles</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Real Estate
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" id="all-properties"
+                    >See All Properties</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="houses">Houses</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="condos">Condos</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pets</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" id="all-pets"
+                    >See all Pets</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="dogs"
+                    >Dogs for Rehoming</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="birds"
+                    >Birds for Rehoming</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" id="cats"
+                    >Cats for Rehoming</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Wishlist -->
+          <form class="d-flex" role="search">
+            <a href="/wishlist/wishlist.html" id="wishlisticon">
+              <i class="bx bx-heart" style="font-size: 20px; color: white"></i>
+            </a>
+          </form>
+          <!-- Home -->
+          <form class="d-flex" role="search">
+            <a href="home.html" id="home">Home</a>
+          </form>
+          <!-- logout -->
+          <form class="d-flex" role="search">
+            <a href="/login/login.html" id="logout">Logout</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- start of slides -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <div
+            class="overlay-image"
+            style="background-image: url(../assets/images/mobiles.jpeg)"
+          ></div>
+          <div class="container">
+            <h1>MOBILES</h1>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <div
+            class="overlay-image"
+            style="background-image: url(../assets/images/laptops.jpeg)"
+          ></div>
+          <div class="container">
+            <h1>LAPTOPS</h1>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <div
+            class="overlay-image"
+            style="background-image: url(../assets/images/cars.jpeg)"
+          ></div>
+          <div class="container">
+            <h1>CARS</h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of slides -->
+    <!-- start of products insertion -->
+    <section class="trending-product" id="trending">
+      <div class="center-text mt-5">
+        <h2>Our Trending <span>products</span></h2>
+      </div>
+    
+      <div class="products" id="products"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">Marketplace</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box" id="contact_us">
+            <li class="link_name">Address</li>
+            <li>MarketPlace Corporate Inc.</li>
+            <li>121 Brunel Road</li>
+            <li>Mississauga</li>
+            <li>Ontario</li>
+            <li>Canada.</li>
+          </ul>
+
+          <ul class="box">
+            <li class="link_name">Contact</li>
+            <li>&#9742; : <a href="tel:1234567890">(123) 456-7890</a></li>
+            <li>
+              <i class="fa fa-envelope"> :</i
+              ><a href="marketplace@mp.com"> marketplace@mp.com</a>
+            </li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services For</li>
+            <li><a href="#" id="All">Vehicles</a></li>
+            <li><a href="#" id="all-devices">Electroncis</a></li>
+            <li><a href="#" id="all-properties">Realestate</a></li>
+            <li><a href="#" id="all-pets">Pets</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name" id="working_hours">Support Hours</li>
+            <li>Mon-Fri: 9:00 to 18:00</li>
+            <li>Saturday: 10:00 to 16:00</li>
+            <li>Sunday: Closed</li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+            <li><input type="text" placeholder="Enter your email" /></li>
+            <li><input type="button" value="Subscribe" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text"
+            >Copyright © 2023
+            <a href="home.html">MarketPlace Corporate Inc.</a>All rights
+            reserved</span
+          >
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="home.js"></script>
+  </body>
+</html>
